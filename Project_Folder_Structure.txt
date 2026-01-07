@@ -1,0 +1,31 @@
+01_module_b/
+│
+├── src/
+│   ├── config/
+│   │   ├── db.js
+│   │   └── jwt.js
+│   │
+│   ├── middleware/
+│   │   ├── auth.middleware.js
+│   │   └── role.middleware.js
+│   │
+│   ├── routes/
+│   │   ├── auth.routes.js
+│   │   ├── user.routes.js
+│   │   ├── category.routes.js
+│   │   ├── request.routes.js
+│   │   └── report.routes.js
+│   │
+│   ├── controllers/
+│   │   ├── auth.controller.js
+│   │   ├── user.controller.js
+│   │   ├── category.controller.js
+│   │   ├── request.controller.js
+│   │   └── report.controller.js
+│   │
+│   ├── app.js
+│   └── server.js
+│
+├── .env
+├── package.json
+├── README.txt
