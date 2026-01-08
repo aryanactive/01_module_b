@@ -1,6 +1,6 @@
 SSRMS Lite Backend – OdishaSkills
 
-Base URL:
+Base URL-:
 http://<server>/01_module_b/api
 
 Authentication:
@@ -28,4 +28,5 @@ exports.register = async (req,res)=>{
     ()=>res.json({success:true,message:"User registered successfully"})
   );
 };
+
 
